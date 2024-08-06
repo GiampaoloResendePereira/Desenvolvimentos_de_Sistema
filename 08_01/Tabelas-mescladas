@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Mescladas</title>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table border="lpx">
+    <caption> Nomes e idades</caption>
+    <thead>
+        <tr>
+            <tr colspan="2">Nome </tr>
+            <tr>Idade</tr>
+    </thead>
+    <tbory>
+        <tr>
+            <td>Jose</td>
+            <td>Açmeida</td>
+            <td>18</td>
+        </tr>
+    </tbory>
+    </table>
+
+</br>
+
+<table border="lpx"></table>
+<caption> Nomes e idades</caption>
+    <thead>
+        <tr>
+            <tr colspan="2">Nome </tr>
+            <tr>Idade</tr>
+    </thead>    
+        
+
+        
+         
+</body>
+</html>
