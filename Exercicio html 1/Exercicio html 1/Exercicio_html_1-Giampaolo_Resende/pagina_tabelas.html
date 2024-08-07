@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabelas</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+        }
+        .table-container {
+            display: inline-block;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+    <h2>Tabela 1</h2>
+    <table>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-container">
+    <h2>Tabela 2</h2>
+    <table>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-container">
+    <h2>Tabela 3</h2>
+    <table>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
