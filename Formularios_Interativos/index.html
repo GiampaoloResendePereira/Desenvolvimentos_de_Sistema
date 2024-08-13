@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Responsivo com Validação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Inscrição</h1>
+        <form id="registrationForm">
+            <label for="firstName">Primeiro Nome:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <span class="error" id="firstNameError"></span>
+
+            <label for="lastName">Sobrenome:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <span class="error" id="lastNameError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <span class="error" id="passwordError"></span>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error" id="phoneError"></span>
+
+            <label for="education">Tipo de Formação:</label>
+            <select id="education" name="education" required>
+                <option value="">Selecione...</option>
+                <option value="tecnico">Ensino Técnico</option>
+                <option value="superior">Ensino Superior</option>
+                <option value="medio">Ensino Médio</option>
+            </select>
+            <span class="error" id="educationError"></span>
+
+            <fieldset>
+                <legend>Horário do Curso:</legend>
+                <label for="matutino">Matutino</label>
+                <input type="radio" id="matutino" name="horario" value="matutino" required>
+                <label for="vespertino">Vespertino</label>
+                <input type="radio" id="vespertino" name="horario" value="vespertino">
+                <label for="noturno">Noturno</label>
+                <input type="radio" id="noturno" name="horario" value="noturno">
+                <label for="integral">Integral</label>
+                <input type="radio" id="integral" name="horario" value="integral">
+                <span class="error" id="horarioError"></span>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
