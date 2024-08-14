@@ -87,7 +87,7 @@ h2 {
 }
 
 /* Antivirus */
-.titulo_Antivirus{
+.titulo_antivirus{
     color: #6c966c;
     text-align: center;
 }
@@ -99,23 +99,22 @@ h2 {
 
 .container{
     display: flex;
+    justify-content: space-between;
 }
 
 .antivirus{
     width: 30%;
     height: 200px;
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 
 #avast{
     background-image: url('../img/avast.png');
 }
-
 #avg{
     background-image: url('../img/avg.jpg');
 }
-
 #norton{
     background-image: url('../img/norton.png');
 }
