@@ -53,17 +53,4 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-/* Responsividade */
-@media (max-width: 600px) {
-    .container {
-        padding: 15px;
-    }
 
-    input, select {
-        font-size: 14px;
-    }
-
-    input[type="submit"] {
-        padding: 10px;
-    }
-}
