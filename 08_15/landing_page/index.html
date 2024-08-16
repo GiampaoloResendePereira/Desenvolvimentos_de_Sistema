@@ -30,6 +30,7 @@
       href="assets/icons/favicon-16x16.png"
     />
 
+    <!-- Page title -->
     <title>JabTV Landing Page</title>
   </head>
   <body>
@@ -42,15 +43,17 @@
         </h1>
       </a>
 
+      <!-- Dark/light theme switcher -->
       <div class="theme-switch">
         <input type="checkbox" class="checkbox" id="checkbox" />
         <label for="checkbox" class="label">
-           <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
-           <ion-icon name="moon-outline" class="moon"></ion-icon>
-           <div class="switcher"></div>
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
         </label>
-    </div>
+      </div>
 
+      <!-- Navigation links -->
       <ul>
         <li class="nav-item">
           <a href="#about" class="nav-link" id="nav-link">About</a>
@@ -59,9 +62,7 @@
           <a href="#stars" class="nav-link" id="nav-link">Boxing Stars</a>
         </li>
         <li class="nav-item">
-          <a href="#stakeholders" class="nav-link" id="nav-link"
-            >stakeholders</a
-          >
+          <a href="#stakeholders" class="nav-link" id="nav-link">Stakeholders</a>
         </li>
         <li class="nav-item">
           <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
@@ -69,10 +70,7 @@
       </ul>
     </nav>
 
-    <!-- Dark/light theme switcher -->
-
-    <!-- Bars -->
-
+    <!-- Hamburger menu -->
     <div class="hamburger" id="hamburger">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -80,7 +78,6 @@
     </div>
 
     <!-- Hero section -->
-
     <section class="hero">
       <div class="intro-text">
         <h1>
@@ -109,7 +106,6 @@
     </section>
 
     <!-- About section -->
-
     <section class="about" id="about">
       <h3>Watch the Jabs</h3>
       <p>
@@ -117,7 +113,7 @@
         the world
       </p>
 
-      <h3>Its not About the Fights Alone!</h3>
+      <h3>It's not About the Fights Alone!</h3>
       <p>
         We also air documentaries specially made for the greats, lifestyle of
         boxers, news, and more.
@@ -125,7 +121,6 @@
     </section>
 
     <!-- Lightbox image gallery -->
-
     <section class="stars" id="stars">
       <div class="stars-gallery">
         <a href="assets/images/boda--femi.jpg" class="big">
@@ -160,8 +155,8 @@
           />
         </a>
 
-        <a href="assets/images/wilder.jpg" class="big"
-          ><img
+        <a href="assets/images/wilder.jpg" class="big">
+          <img
             src="assets/images/wilder.jpg"
             alt="Deontay Wilder"
             title="Bronze Bomber"
@@ -179,7 +174,6 @@
     </section>
 
     <!-- Jab TV Stakeholders -->
-
     <section class="people" id="stakeholders">
       <div class="stakeholders">
         <div class="persons">
@@ -200,10 +194,9 @@
           </div>
         </div>
       </div>
-     </section>
-    
-    <!-- Email subscription -->
+    </section>
 
+    <!-- Email subscription -->
     <section class="sub" id="sub">
       <h3>Subscribe to our newsletter for updates</h3>
       <form action="#">
@@ -221,10 +214,9 @@
           class="submit-btn"
         />
       </form>
-</section>
+    </section>
 
     <!-- Social icons -->
-
     <section class="social">
       <h3>Connect with us on Social Media</h3>
       <div class="socicons">
@@ -232,20 +224,19 @@
         <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
         <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
       </div>
-</section>
+    </section>
 
-<footer>&copy;2020. All Rights Reserved</footer>
+    <!-- Footer -->
+    <footer>&copy;2020. All Rights Reserved</footer>
 
     <!-- Scroll to top button -->
-
-    <i class="scroll-up" id="scroll-up"
-      ><img
+    <i class="scroll-up" id="scroll-up">
+      <img
         src="assets/icons/icons8-upward-arrow.png"
         class="socicon up-arrow"
         alt="up-arrow"
-/></i>
-
-
+      />
+    </i>
 
     <!-- Web page script -->
     <script src="assets/js/app.js"></script>
@@ -256,15 +247,11 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
 
-    <!-- Simple lightbox -->
+    <!-- Simple lightbox script -->
     <script src="assets/js/simple-lightbox.min.js"></script>
     <script>
       // Simple lightbox initializer
-    </script>
-
-    <script>
       var lightbox = new SimpleLightbox(".stars-gallery a");
     </script>
-
   </body>
 </html>
