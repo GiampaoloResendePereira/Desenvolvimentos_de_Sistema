@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Relógio, Saudação, Anúncios e Tabela</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
-    <script type="module" src="./js/tabela.js"></script>
+    <!-- Div para exibir a saudação ao usuário (Bom Dia, Boa Tarde, etc.) -->
+    <div id="saudacao"></div>
+
+    <!-- Div para exibir a hora atual em tempo real -->
+    <div id="relogio"></div>
+
+    <!-- Div para exibir uma galeria de anúncios em imagens -->
+    <div id="anuncios"></div>
+
+    <!-- Campo de entrada de texto para filtrar as linhas da tabela por turma -->
+    <input type="text" id="filtro-turma" placeholder="Filtrar por turma...">
+
+    <!-- Campo de entrada de data para selecionar uma data específica e filtrar os horários na tabela -->
+    <input type="date" id="seletor-data">
+
+    <!-- Tabela para exibir os horários das aulas -->
+    <table id="tabela-horarios">
+        <thead>
+            <tr>
+                <!-- Cabeçalhos das colunas da tabela -->
+                <th>Início</th> <!-- Horário de início da aula -->
+                <th>Fim</th> <!-- Horário de término da aula -->
+                <th>Turma</th> <!-- Identificação da turma -->
+                <th>Instrutor</th> <!-- Nome do instrutor -->
+                <th>Sala/Ambiente</th> <!-- Sala ou ambiente onde a aula ocorre -->
+                <th>Unidade Curricular</th> <!-- Unidade curricular relacionada à aula -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas da tabela serão adicionadas dinamicamente pelo JavaScript -->
+        </tbody>
+    </table>
+
+    <!-- Link para o arquivo JavaScript que contém a lógica para atualizar o relógio, a saudação, os anúncios e a tabela -->
+    <script src="js/Painel.js"></script>
 </body>
+
 </html>
