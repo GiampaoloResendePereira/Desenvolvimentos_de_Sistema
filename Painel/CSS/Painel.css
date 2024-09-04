@@ -1,0 +1,80 @@
+#anuncios{
+    width: 20%;
+}
+
+#anuncios img{
+    max-width: 100%;
+}
+
+/* Estilo para o corpo da página */
+body {
+    /* Define o layout como um contêiner flexível em coluna */
+    display: flex;
+    /* Alinha os itens no centro verticalmente */
+    flex-direction: column;
+    /* Alinha os itens no centro horizontalmente */
+    justify-content: center;
+    align-items: center;
+    /* Define a altura do contêiner como 100% da altura da visualização */
+    height: 100vh;
+    /* Remove a margem padrão do navegador */
+    margin: 0;
+    /* Define a fonte para Arial com fallback para sans-serif */
+    font-family: Arial, sans-serif;
+    /* Define a cor de fundo da página */
+    background-color: #0011ff;
+}
+
+/* Estilo para os elementos com ids 'saudacao' e 'relogio' */
+#saudacao, #relogio {
+    /* Define o tamanho da fonte */
+    font-size: 48px;
+    /* Define a cor do texto */
+    color: #ffffff;
+    /* Adiciona uma margem de 10px em torno dos elementos */
+    margin: 10px;
+}
+
+/* Estilo para a seção de anúncios */
+#anuncios {
+    /* Define a largura da seção como 20% do contêiner pai */
+    width: 20%;
+    /* Posiciona a seção no canto direito do contêiner pai */
+    float: right;
+}
+
+/* Estilo para as imagens dentro da seção de anúncios */
+#anuncios img {
+    /* Define o tamanho máximo da largura da imagem como 100% do contêiner pai */
+    max-width: 100%;
+}
+
+/* Estilo para a tabela */
+table {
+    /* Define a largura da tabela como 80% do contêiner pai */
+    width: 80%;
+    /* Garante que as bordas das células sejam colapsadas em uma única borda */
+    border-collapse: collapse;
+    /* Adiciona margem de 20px no topo e na parte inferior da tabela */
+    margin: 20px 0;
+    /* Define a cor do texto */
+    color: #ffffff;
+}
+
+/* Estilo para células da tabela */
+th, td {
+    /* Define a borda das células como 1px sólida e cinza claro */
+    border: 1px solid #ddd;
+    /* Adiciona preenchimento interno de 8px nas células */
+    padding: 8px;
+    /* Alinha o texto no centro das células */
+    text-align: center;
+}
+
+/* Estilo para cabeçalhos de tabela */
+th {
+    /* Define a cor de fundo dos cabeçalhos como cinza claro */
+    background-color: #0095ff;
+    /* Define o texto dos cabeçalhos como negrito */
+    font-weight: bold;
+}
