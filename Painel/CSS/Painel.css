@@ -37,12 +37,14 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 20px 0;
+    color: #007bff;
 }
 
 th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
 }
 
 thead {
@@ -58,4 +60,12 @@ thead {
 
 .advertisement img {
     max-width: 100px;
+}
+
+#anuncios{
+    width: 20%;
+}
+
+#anuncios img{
+    max-width: 100%;
 }

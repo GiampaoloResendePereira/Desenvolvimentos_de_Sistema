@@ -1,0 +1,20 @@
+{
+  "name": "desenvolvimentos_de_sistema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "database"
+  ],
+  "author": "Giampaolo Resende Pereira",
+  "license": "ISC",
+  "description": "API_HTTP para gerenciar itens do banco de dados",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "node-fetch": "^1.0.0"
+  }
+}
