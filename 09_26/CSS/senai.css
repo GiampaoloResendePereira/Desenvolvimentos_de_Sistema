@@ -1,0 +1,26 @@
+.top_bar{
+    background-color: blue;
+}
+.icones{
+    background-color: pink;
+}
+.social{
+    background-color: green;
+    text-align: right;
+
+}
+
+.navbar .nav-item .nav-link{
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navbar  .nav-item .nav-link:hover{
+    color: blue;
+}
+ 
+header{
+    box-shadow: 1px 0 4px rgbrgb(0, 0, 0)
+}
